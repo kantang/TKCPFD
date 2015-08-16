@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\TKCPFD.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{341759EF-A28D-4A45-8565-5B11EA365C7F}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\TKCPFD.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\TKCPFDEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{15C60B07-216C-421A-B7CB-CE97623E2B62}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\TKCPFD">
+			<UniqueIdentifier>{19E25BB0-E343-4102-B10D-5E9F30E28E8D}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\TKCPFD\TKCPFD.Build.cs">
+			<Filter>Source\TKCPFD</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\TKCPFD\TKCPFD.cpp">
+			<Filter>Source\TKCPFD</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TKCPFD\TKCPFD.h">
+			<Filter>Source\TKCPFD</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\TKCPFD\TKCPFDGameMode.cpp">
+			<Filter>Source\TKCPFD</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TKCPFD\TKCPFDGameMode.h">
+			<Filter>Source\TKCPFD</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
